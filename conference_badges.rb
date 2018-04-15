@@ -14,4 +14,8 @@ end
 
 def printer
   puts batch_badge_creator
+  assign_rooms.each do|attendee_array|
+    puts attendee_array.inspect
+  end
+
 end
